@@ -25,5 +25,6 @@ jobs:
          push: true
          tags: nana1212/ci-cd:latest
          env:
-         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+        
