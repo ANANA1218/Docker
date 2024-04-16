@@ -10,7 +10,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check Docker version
-        uses: docker/cli
-        with:
-          args: -v
+      - run: docker -v
