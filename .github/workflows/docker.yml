@@ -11,6 +11,6 @@ jobs:
 
     steps:
       - name: Check Docker version
-        uses: docker/cli@v2
+        uses: docker/cli
         with:
           args: -v
